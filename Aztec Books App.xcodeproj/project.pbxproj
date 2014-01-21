@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9821E4C9188E5747002BDF90 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9821E4C8188E5747002BDF90 /* Foundation.framework */; };
+		9821E4CB188E5747002BDF90 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9821E4CA188E5747002BDF90 /* CoreGraphics.framework */; };
+		9821E4CD188E5747002BDF90 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9821E4CC188E5747002BDF90 /* UIKit.framework */; };
+		9821E4D3188E5747002BDF90 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9821E4D1188E5747002BDF90 /* InfoPlist.strings */; };
+		9821E4D5188E5747002BDF90 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9821E4D4188E5747002BDF90 /* main.m */; };
+		9821E4D9188E5747002BDF90 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9821E4D8188E5747002BDF90 /* AppDelegate.m */; };
+		9821E4DC188E5747002BDF90 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9821E4DA188E5747002BDF90 /* Main_iPhone.storyboard */; };
+		9821E4DF188E5747002BDF90 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9821E4DD188E5747002BDF90 /* Main_iPad.storyboard */; };
+		9821E4E2188E5747002BDF90 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9821E4E1188E5747002BDF90 /* FirstViewController.m */; };
+		9821E4E5188E5747002BDF90 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9821E4E4188E5747002BDF90 /* SecondViewController.m */; };
+		9821E4E7188E5748002BDF90 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9821E4E6188E5748002BDF90 /* Images.xcassets */; };
+		9821E4EE188E5748002BDF90 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9821E4ED188E5748002BDF90 /* XCTest.framework */; };
+		9821E4EF188E5748002BDF90 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9821E4C8188E5747002BDF90 /* Foundation.framework */; };
+		9821E4F0188E5748002BDF90 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9821E4CC188E5747002BDF90 /* UIKit.framework */; };
+		9821E4F8188E5748002BDF90 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9821E4F6188E5748002BDF90 /* InfoPlist.strings */; };
+		9821E4FA188E5748002BDF90 /* Aztec_Books_AppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9821E4F9188E5748002BDF90 /* Aztec_Books_AppTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9821E4F1188E5748002BDF90 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9821E4BD188E5747002BDF90 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9821E4C4188E5747002BDF90;
+			remoteInfo = "Aztec Books App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9821E4C5188E5747002BDF90 /* Aztec Books App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Aztec Books App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9821E4C8188E5747002BDF90 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9821E4CA188E5747002BDF90 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9821E4CC188E5747002BDF90 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9821E4D0188E5747002BDF90 /* Aztec Books App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Aztec Books App-Info.plist"; sourceTree = "<group>"; };
+		9821E4D2188E5747002BDF90 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9821E4D4188E5747002BDF90 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9821E4D6188E5747002BDF90 /* Aztec Books App-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Aztec Books App-Prefix.pch"; sourceTree = "<group>"; };
+		9821E4D7188E5747002BDF90 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9821E4D8188E5747002BDF90 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9821E4DB188E5747002BDF90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		9821E4DE188E5747002BDF90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		9821E4E0188E5747002BDF90 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		9821E4E1188E5747002BDF90 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		9821E4E3188E5747002BDF90 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		9821E4E4188E5747002BDF90 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		9821E4E6188E5748002BDF90 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9821E4EC188E5748002BDF90 /* Aztec Books AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Aztec Books AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9821E4ED188E5748002BDF90 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		9821E4F5188E5748002BDF90 /* Aztec Books AppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Aztec Books AppTests-Info.plist"; sourceTree = "<group>"; };
+		9821E4F7188E5748002BDF90 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9821E4F9188E5748002BDF90 /* Aztec_Books_AppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Aztec_Books_AppTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9821E4C2188E5747002BDF90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9821E4CB188E5747002BDF90 /* CoreGraphics.framework in Frameworks */,
+				9821E4CD188E5747002BDF90 /* UIKit.framework in Frameworks */,
+				9821E4C9188E5747002BDF90 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9821E4E9188E5748002BDF90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9821E4EE188E5748002BDF90 /* XCTest.framework in Frameworks */,
+				9821E4F0188E5748002BDF90 /* UIKit.framework in Frameworks */,
+				9821E4EF188E5748002BDF90 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9821E4BC188E5747002BDF90 = {
+			isa = PBXGroup;
+			children = (
+				9821E4CE188E5747002BDF90 /* Aztec Books App */,
+				9821E4F3188E5748002BDF90 /* Aztec Books AppTests */,
+				9821E4C7188E5747002BDF90 /* Frameworks */,
+				9821E4C6188E5747002BDF90 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9821E4C6188E5747002BDF90 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9821E4C5188E5747002BDF90 /* Aztec Books App.app */,
+				9821E4EC188E5748002BDF90 /* Aztec Books AppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9821E4C7188E5747002BDF90 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9821E4C8188E5747002BDF90 /* Foundation.framework */,
+				9821E4CA188E5747002BDF90 /* CoreGraphics.framework */,
+				9821E4CC188E5747002BDF90 /* UIKit.framework */,
+				9821E4ED188E5748002BDF90 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9821E4CE188E5747002BDF90 /* Aztec Books App */ = {
+			isa = PBXGroup;
+			children = (
+				9821E4D7188E5747002BDF90 /* AppDelegate.h */,
+				9821E4D8188E5747002BDF90 /* AppDelegate.m */,
+				9821E4DA188E5747002BDF90 /* Main_iPhone.storyboard */,
+				9821E4DD188E5747002BDF90 /* Main_iPad.storyboard */,
+				9821E4E0188E5747002BDF90 /* FirstViewController.h */,
+				9821E4E1188E5747002BDF90 /* FirstViewController.m */,
+				9821E4E3188E5747002BDF90 /* SecondViewController.h */,
+				9821E4E4188E5747002BDF90 /* SecondViewController.m */,
+				9821E4E6188E5748002BDF90 /* Images.xcassets */,
+				9821E4CF188E5747002BDF90 /* Supporting Files */,
+			);
+			path = "Aztec Books App";
+			sourceTree = "<group>";
+		};
+		9821E4CF188E5747002BDF90 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9821E4D0188E5747002BDF90 /* Aztec Books App-Info.plist */,
+				9821E4D1188E5747002BDF90 /* InfoPlist.strings */,
+				9821E4D4188E5747002BDF90 /* main.m */,
+				9821E4D6188E5747002BDF90 /* Aztec Books App-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9821E4F3188E5748002BDF90 /* Aztec Books AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				9821E4F9188E5748002BDF90 /* Aztec_Books_AppTests.m */,
+				9821E4F4188E5748002BDF90 /* Supporting Files */,
+			);
+			path = "Aztec Books AppTests";
+			sourceTree = "<group>";
+		};
+		9821E4F4188E5748002BDF90 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9821E4F5188E5748002BDF90 /* Aztec Books AppTests-Info.plist */,
+				9821E4F6188E5748002BDF90 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9821E4C4188E5747002BDF90 /* Aztec Books App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9821E4FD188E5748002BDF90 /* Build configuration list for PBXNativeTarget "Aztec Books App" */;
+			buildPhases = (
+				9821E4C1188E5747002BDF90 /* Sources */,
+				9821E4C2188E5747002BDF90 /* Frameworks */,
+				9821E4C3188E5747002BDF90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Aztec Books App";
+			productName = "Aztec Books App";
+			productReference = 9821E4C5188E5747002BDF90 /* Aztec Books App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9821E4EB188E5748002BDF90 /* Aztec Books AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9821E500188E5748002BDF90 /* Build configuration list for PBXNativeTarget "Aztec Books AppTests" */;
+			buildPhases = (
+				9821E4E8188E5748002BDF90 /* Sources */,
+				9821E4E9188E5748002BDF90 /* Frameworks */,
+				9821E4EA188E5748002BDF90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9821E4F2188E5748002BDF90 /* PBXTargetDependency */,
+			);
+			name = "Aztec Books AppTests";
+			productName = "Aztec Books AppTests";
+			productReference = 9821E4EC188E5748002BDF90 /* Aztec Books AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9821E4BD188E5747002BDF90 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Aztec Shops";
+				TargetAttributes = {
+					9821E4EB188E5748002BDF90 = {
+						TestTargetID = 9821E4C4188E5747002BDF90;
+					};
+				};
+			};
+			buildConfigurationList = 9821E4C0188E5747002BDF90 /* Build configuration list for PBXProject "Aztec Books App" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9821E4BC188E5747002BDF90;
+			productRefGroup = 9821E4C6188E5747002BDF90 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9821E4C4188E5747002BDF90 /* Aztec Books App */,
+				9821E4EB188E5748002BDF90 /* Aztec Books AppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9821E4C3188E5747002BDF90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9821E4DF188E5747002BDF90 /* Main_iPad.storyboard in Resources */,
+				9821E4E7188E5748002BDF90 /* Images.xcassets in Resources */,
+				9821E4DC188E5747002BDF90 /* Main_iPhone.storyboard in Resources */,
+				9821E4D3188E5747002BDF90 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9821E4EA188E5748002BDF90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9821E4F8188E5748002BDF90 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9821E4C1188E5747002BDF90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9821E4E5188E5747002BDF90 /* SecondViewController.m in Sources */,
+				9821E4D9188E5747002BDF90 /* AppDelegate.m in Sources */,
+				9821E4E2188E5747002BDF90 /* FirstViewController.m in Sources */,
+				9821E4D5188E5747002BDF90 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9821E4E8188E5748002BDF90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9821E4FA188E5748002BDF90 /* Aztec_Books_AppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9821E4F2188E5748002BDF90 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9821E4C4188E5747002BDF90 /* Aztec Books App */;
+			targetProxy = 9821E4F1188E5748002BDF90 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9821E4D1188E5747002BDF90 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9821E4D2188E5747002BDF90 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9821E4DA188E5747002BDF90 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9821E4DB188E5747002BDF90 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		9821E4DD188E5747002BDF90 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9821E4DE188E5747002BDF90 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		9821E4F6188E5748002BDF90 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9821E4F7188E5748002BDF90 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9821E4FB188E5748002BDF90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9821E4FC188E5748002BDF90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9821E4FE188E5748002BDF90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Aztec Books App/Aztec Books App-Prefix.pch";
+				INFOPLIST_FILE = "Aztec Books App/Aztec Books App-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9821E4FF188E5748002BDF90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Aztec Books App/Aztec Books App-Prefix.pch";
+				INFOPLIST_FILE = "Aztec Books App/Aztec Books App-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		9821E501188E5748002BDF90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Aztec Books App.app/Aztec Books App";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Aztec Books App/Aztec Books App-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Aztec Books AppTests/Aztec Books AppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		9821E502188E5748002BDF90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Aztec Books App.app/Aztec Books App";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Aztec Books App/Aztec Books App-Prefix.pch";
+				INFOPLIST_FILE = "Aztec Books AppTests/Aztec Books AppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9821E4C0188E5747002BDF90 /* Build configuration list for PBXProject "Aztec Books App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9821E4FB188E5748002BDF90 /* Debug */,
+				9821E4FC188E5748002BDF90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9821E4FD188E5748002BDF90 /* Build configuration list for PBXNativeTarget "Aztec Books App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9821E4FE188E5748002BDF90 /* Debug */,
+				9821E4FF188E5748002BDF90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9821E500188E5748002BDF90 /* Build configuration list for PBXNativeTarget "Aztec Books AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9821E501188E5748002BDF90 /* Debug */,
+				9821E502188E5748002BDF90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9821E4BD188E5747002BDF90 /* Project object */;
+}
