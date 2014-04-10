@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "AppDelegate.h"
+#import "LoginViewController.h"
+
 
 @interface FirstViewController : UIViewController
-
+    @property (strong, nonatomic) NSMutableData* webResponseData;
 @end

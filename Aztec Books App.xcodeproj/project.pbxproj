@@ -23,6 +23,8 @@
 		9821E4F0188E5748002BDF90 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9821E4CC188E5747002BDF90 /* UIKit.framework */; };
 		9821E4F8188E5748002BDF90 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9821E4F6188E5748002BDF90 /* InfoPlist.strings */; };
 		9821E4FA188E5748002BDF90 /* Aztec_Books_AppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9821E4F9188E5748002BDF90 /* Aztec_Books_AppTests.m */; };
+		98367F1818E149B200C9C5C1 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98367F1618E149B200C9C5C1 /* LoginViewController.m */; };
+		98D2A77C1890D1E700B8DD44 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D2A77A1890D1E700B8DD44 /* ThirdViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +60,10 @@
 		9821E4F5188E5748002BDF90 /* Aztec Books AppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Aztec Books AppTests-Info.plist"; sourceTree = "<group>"; };
 		9821E4F7188E5748002BDF90 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9821E4F9188E5748002BDF90 /* Aztec_Books_AppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Aztec_Books_AppTests.m; sourceTree = "<group>"; };
+		98367F1518E149B200C9C5C1 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		98367F1618E149B200C9C5C1 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		98D2A7791890D1E700B8DD44 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		98D2A77A1890D1E700B8DD44 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,10 +127,14 @@
 				9821E4D8188E5747002BDF90 /* AppDelegate.m */,
 				9821E4DA188E5747002BDF90 /* Main_iPhone.storyboard */,
 				9821E4DD188E5747002BDF90 /* Main_iPad.storyboard */,
+				98367F1518E149B200C9C5C1 /* LoginViewController.h */,
+				98367F1618E149B200C9C5C1 /* LoginViewController.m */,
 				9821E4E0188E5747002BDF90 /* FirstViewController.h */,
 				9821E4E1188E5747002BDF90 /* FirstViewController.m */,
 				9821E4E3188E5747002BDF90 /* SecondViewController.h */,
 				9821E4E4188E5747002BDF90 /* SecondViewController.m */,
+				98D2A7791890D1E700B8DD44 /* ThirdViewController.h */,
+				98D2A77A1890D1E700B8DD44 /* ThirdViewController.m */,
 				9821E4E6188E5748002BDF90 /* Images.xcassets */,
 				9821E4CF188E5747002BDF90 /* Supporting Files */,
 			);
@@ -259,6 +269,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9821E4E5188E5747002BDF90 /* SecondViewController.m in Sources */,
+				98D2A77C1890D1E700B8DD44 /* ThirdViewController.m in Sources */,
+				98367F1818E149B200C9C5C1 /* LoginViewController.m in Sources */,
 				9821E4D9188E5747002BDF90 /* AppDelegate.m in Sources */,
 				9821E4E2188E5747002BDF90 /* FirstViewController.m in Sources */,
 				9821E4D5188E5747002BDF90 /* main.m in Sources */,
@@ -480,6 +492,7 @@
 				9821E4FF188E5748002BDF90 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9821E500188E5748002BDF90 /* Build configuration list for PBXNativeTarget "Aztec Books AppTests" */ = {
 			isa = XCConfigurationList;
@@ -488,6 +501,7 @@
 				9821E502188E5748002BDF90 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

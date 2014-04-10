@@ -13,6 +13,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    
     return YES;
 }
 							
@@ -36,6 +37,16 @@
 - (void)applicationDidBecomeActive:(UIApplication *)application
 {
     // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
+    
+    UIStoryboard *storyBoard = [UIStoryboard storyboardWithName:@"Main_iPhone" bundle:nil];
+    UITabBarController *tabBarCtrl = (UITabBarController *) self.window.rootViewController;
+    
+    if (!self.login) {
+        // BOOL value to know if user is logged in or not. If user succefully logged in set value of this as YES else NO.
+        LoginViewController * loginViewCtrl = [storyBoard instantiateViewControllerWithIdentifier:@"loginViewController"];
+        [tabBarCtrl presentViewController:loginViewCtrl animated:YES completion:NULL];
+        
+    }
 }
 
 - (void)applicationWillTerminate:(UIApplication *)application
